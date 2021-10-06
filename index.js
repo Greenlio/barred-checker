@@ -1,8 +1,8 @@
 const { Minehut } = require('minehut')
 const { Server } = require('./config.json')
 async function mainFunction() {
-    const minehut = new Minehut();
-    const server = await minehut.servers.get(Server, true);
+	const minehut = new Minehut();
+	const server = await minehut.servers.get(Server, true);
     
     // is barred online?
     console.log(`Is ${Server} online: ` + server.online)
@@ -25,8 +25,7 @@ async function mainFunction() {
     if (sdk2 == 40) sdk2 = 'Daily'
     if (sdk2 == 0) sdk2 = 'Free'
     console.log(`Plan of ${Server}: ` + sdk2)
-    
-    console.log(sdk3)
+
 };
 
 mainFunction()
