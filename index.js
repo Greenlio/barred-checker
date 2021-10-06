@@ -1,5 +1,5 @@
 const { Minehut } = require('minehut')
-const { Server } = require('config.json')
+const { Server } = require('./config.json')
 // i know the code is messy stop screaming at me i just started making this
 async function mainFunction() {
 	const minehut = new Minehut();
