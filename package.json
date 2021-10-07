@@ -1,0 +1,26 @@
+{
+  "name": "barred-checker",
+  "version": "1.0.0",
+  "description": "make sure cup is doing good and staff are developing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greenlio/barred-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greenlio/barred-checker/issues"
+  },
+  "homepage": "https://github.com/Greenlio/barred-checker#readme",
+  "dependencies": {
+    "@types/node": "^16.10.3",
+    "config.json": "0.0.4",
+    "discord.js": "^13.2.0",
+    "minehut": "0.0.53"
+  }
+}
